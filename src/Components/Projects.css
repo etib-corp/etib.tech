@@ -1,0 +1,49 @@
+.projects
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.projects .bck
+{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: grey;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding: 10%;
+}
+
+.projects button
+{
+    display: flex;
+    align-items: center;
+    border: none !important;
+    border-radius: 20px;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 100ms;
+}
+
+.projects button:hover
+{
+    transition: ease-in-out 100ms;
+    text-decoration: underline;
+}
+
+.projects .bck .text
+{
+    border-radius: 5px;
+    background-color: grey;
+    transition: ease-in-out 100ms;
+}
+
+.projects .bck:hover .text
+{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
