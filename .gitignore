@@ -1,3 +1,2 @@
-assets/web.jpg
-assets/web2.jpg
-./node_modules
+node_modules
+build
