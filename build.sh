@@ -1,7 +1,7 @@
 git switch react-release
 git reset --hard react
 npm run build
-find . -maxdepth 1 -name "*" ! -name "build" -delete
+find . -maxdepth 1 -name "*" ! -name "build" ! -name ".git" -exec rm -fr {} \;
 mv build/* .
 rmdir build
 git add --all
