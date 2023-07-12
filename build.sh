@@ -1,5 +1,6 @@
 git switch react-release
 git reset --hard react
+npm install
 npm run build
 find . -maxdepth 1 -name "*" ! -name "build" ! -name ".git" -exec rm -fr {} +
 mv build/* .
