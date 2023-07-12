@@ -1,7 +1,7 @@
 git switch react-release
 git pull --force origin react
 npm run build
-find . -name "*" ! -name "build"
+find . -name "*" ! -name "build" -delete
 mv build/* .
 rmdir build
 git add --all
